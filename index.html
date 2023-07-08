@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link  rel="stylesheet" href="./css/style.css"/>
+    <link  rel="stylesheet" href="./css/responsive.css"/>
+    <link  rel="stylesheet" href="./css/lightslider.css"/>
+    <script src="./js/JQuery3.3.1.js"></script>
+    <script src="./js/lightslider.js"></script>
+    <!-- Icon nhỏ nhở logo -->
+    <link  rel="shortcut icon" href="./images/fav icon.png"/>
+    <!-- End Icon -->
+    <!-- Sử dụng Icon của Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- End Sử dụng Icon của Fontawesome -->
+    <title>Website Xem phim</title>
+
+</head>
+    <body>
+        <!-- Thanh điều hướng -->
+        <nav>
+            <!-- Logo -->
+            <a href="/" class="logo">
+                <img src="./images/logo.png">
+            </a>
+            <!-- Menu Responsive -->
+            <input type="checkbox" class="menu-btn" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn">
+                <span class="nav-icon"></span>
+            </label>
+            <!-- End Menu Responsive -->
+            <!-- Menu -->
+            <ul class="menu">
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Hollywood</a></li>
+                <li><a href="#">Kinh dị</a></li>
+            </ul>
+            <!-- End Menu -->
+            <!-- Thanh tìm kiếm -->
+            <div class="search">
+                <input type="text" placeholder="Tìm kiếm phim của bạn!" />
+                <!-- Icon tìm kiếm -->
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <!-- End Icon tìm kiếm -->
+            </div>
+            <!-- End Thanh tìm kiếm -->
+        </nav>
+    <!-- End Thanh điều hướng -->
+    <!-- Nội dung -->
+        <section id="main">
+            <!-- Showcase -->
+            <!-- Heading -->
+            <h1 class="showcase-heading">Tủ phim</h1>
+            <!-- End Heading -->    
+            <!--  -->
+            <ul id="autoWidth" class="cs-hidden">
+                <!-- Box 1 -->
+                <li class="item-a">
+                    <!-- Showcase box -->
+                    <div class="showcase-box">
+                        <img src="./images/s-1.jpg" alt="" />
+                    </div>
+                    <!-- End Showcase box -->
+                </li>
+                <!-- End Box 1 -->
+                <!-- Box 2 -->
+                <li class="item-a">
+                    <!-- Showcase box -->
+                    <div class="showcase-box">
+                        <img src="./images/s-2.jpg" alt="" />
+                    </div>
+                    <!-- End Showcase box -->
+                </li>
+                <!-- End Box 2 -->
+                <!-- Box 3 -->
+                <li class="item-a">
+                    <!-- Showcase box -->
+                    <div class="showcase-box">
+                        <img src="./images/s-3.jpg" alt="" />
+                    </div>
+                    <!-- End Showcase box -->
+                </li>
+                <!-- End Box 3 -->
+                <!-- Box 4 -->
+                <li class="item-a">
+                    <!-- Showcase box -->
+                    <div class="showcase-box">
+                        <img src="./images/s-4.jpg" alt="" />
+                    </div>
+                    <!-- End Showcase box -->
+                </li>
+                <!-- End Box 4 -->
+                <!-- Box 5 -->
+                <li class="item-a">
+                    <!-- Showcase box -->
+                    <div class="showcase-box">
+                        <img src="./images/s-5.png" alt="" />
+                    </div>
+                    <!-- End Showcase box -->
+                </li>
+                <!-- End Box 5 -->
+              </ul>    
+            <!--  -->
+        </section>
+        <!-- Phim sắp ra mắt -->
+        <section id="latest">
+            <h2 class="latest-heading">Phim gần đây</h2>
+            <!-- Slider -->
+            <ul id="autoWidth2" class="cs-hidden">
+                <!-- Slider box 1 -->
+                <li class="item-a">
+                    <div class="latest-box">
+                        <!-- Ảnh -->
+                        <div class="latest-b-img">
+                            <img src="./images/m-1.jpg" alt="chưa biết tên gì!">
+                        </div>
+                        <!-- End Ảnh -->
+                        <!-- Tiêu đề -->
+                        <div class="latest-b-text">
+                            <strong>Kin 2018</strong>
+                            <p>Action Movie</p>
+                        </div>
+                        <!-- End Tiêu đề -->
+                    </div>
+                </li>
+               <!-- End slider box 1 -->
+               <!-- Slider box 2 -->
+               <li class="item-a">
+                    <div class="latest-box">
+                        <!-- Ảnh -->
+                        <div class="latest-b-img">
+                            <img src="./images/m-2.jpg" alt="chưa biết tên gì!">
+                        </div>
+                        <!-- End Ảnh -->
+                        <!-- Tiêu đề -->
+                        <div class="latest-b-text">
+                            <strong>Kin 2028</strong>
+                            <p>Action Movie</p>
+                        </div>
+                        <!-- End Tiêu đề -->
+                    </div>
+                </li>
+                <!-- End slider box 2 -->
+                <!-- Slider box 3 -->
+                <li class="item-a">
+                        <div class="latest-box">
+                            <!-- Ảnh -->
+                            <div class="latest-b-img">
+                                <img src="./images/m-3.jpg" alt="chưa biết tên gì!">
+                            </div>
+                            <!-- End Ảnh -->
+                            <!-- Tiêu đề -->
+                            <div class="latest-b-text">
+                                <strong>Kin 2028</strong>
+                                <p>Action Movie</p>
+                            </div>
+                            <!-- End Tiêu đề -->
+                        </div>
+                    </li>
+                <!-- End slider box 3 -->
+                <!-- Slider box 4 -->
+                <li class="item-a">
+                    <div class="latest-box">
+                        <!-- Ảnh -->
+                        <div class="latest-b-img">
+                            <img src="./images/m-4.jpg" alt="chưa biết tên gì!">
+                        </div>
+                        <!-- End Ảnh -->
+                        <!-- Tiêu đề -->
+                        <div class="latest-b-text">
+                            <strong>Kin 2048</strong>
+                            <p>Action Movie</p>
+                        </div>
+                        <!-- End Tiêu đề -->
+                    </div>
+                </li>
+            <!-- End slider box 4 -->
+            <!-- Slider box 4 -->
+            <li class="item-a">
+                <div class="latest-box">
+                    <!-- Ảnh -->
+                    <div class="latest-b-img">
+                        <img src="./images/m-4.jpg" alt="chưa biết tên gì!">
+                    </div>
+                    <!-- End Ảnh -->
+                    <!-- Tiêu đề -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2048</strong>
+                        <p>Action Movie</p>
+                    </div>
+                    <!-- End Tiêu đề -->
+                </div>
+            </li>
+            <!-- End slider box 4 -->
+            <!-- Slider box 5 -->
+            <li class="item-a">
+                <div class="latest-box">
+                    <!-- Ảnh -->
+                    <div class="latest-b-img">
+                        <img src="./images/m-5.jpg" alt="chưa biết tên gì!">
+                    </div>
+                    <!-- End Ảnh -->
+                    <!-- Tiêu đề -->
+                    <div class="latest-b-text">
+                        <strong>Kin 2058</strong>
+                        <p>Action Movie</p>
+                    </div>
+                    <!-- End Tiêu đề -->
+                </div>
+            </li>
+        <!-- End slider box 5 -->
+        <!-- Slider box 6 -->
+        <li class="item-a">
+            <div class="latest-box">
+                <!-- Ảnh -->
+                <div class="latest-b-img">
+                    <img src="./images/m-6.jpg" alt="chưa biết tên gì!">
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <div class="latest-b-text">
+                    <strong>Kin 2068</strong>
+                    <p>Action Movie</p>
+                </div>
+                <!-- End Tiêu đề -->
+            </div>
+            </li>
+            <!-- End slider box 6 -->
+            </ul>
+            <!-- End Slider -->
+        </section>
+        <!-- End Phim sắp ra mắt -->
+        <!-- Phim -->
+        <div class="movies-heading">
+            <h2>Movie</h2>
+        </div>
+        <!-- Danh sách movie -->
+        <section id="movie-list">
+            <!-- Thành phần 1 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-1.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 1 -->
+            <!-- Thành phần 2 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-2.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 2 -->
+            <!-- Thành phần 3 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-3.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 3 -->
+            <!-- Thành phần 4 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-4.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 4 -->
+            <!-- Thành phần 5 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-5.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 5 -->
+            <!-- Thành phần 6 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-6.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 6 -->
+            <!-- Thành phần 7 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-7.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 7 -->
+            <!-- Thành phần 8 -->
+            <div class="movie-box">
+                <!-- Ảnh -->
+                <div class="movie-img">
+                    <div class="quanlity">HD</div>
+                    <img src="./images/l-8.jpg" alt="Chưa biết tên gì!" />
+                </div>
+                <!-- End Ảnh -->
+                <!-- Tiêu đề -->
+                <a href="#"> 
+                    Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 Phim mới .net hay nhất 2023 
+                </a>
+                <!-- End Tiêu đề -->
+            </div>
+            <!-- End Thành phần 8 -->
+        </section>
+        <!-- End Danh sách movie -->
+        <!-- End Phim -->
+        <!-- Phân trang -->
+        <div class="btns">
+            <a href="#">Đầu</a>
+            <a href="#">Tiếp</a>
+        </div>
+        <!-- End Phân trang -->
+        <!-- Chân trang -->
+         <footer>
+            <p>Sản phẩm được làm bởi kỹ sư Nguyễn Văn Hào</p>
+            <p>Bản quyền thuộc Nguyễn Văn Hào nhà lãnh đạo tài ba và là người sinh diên có tiềm năng</p>
+         </footer>
+        <!-- End Chân trang -->
+    <!-- End Nội dung -->
+    <!-- Slider Script -->
+    <script>
+    $(document).ready(function() {
+    $('#autoWidth, #autoWidth2').lightSlider({
+        autoWidth:true,
+        loop:true,
+        onSliderLoad: function() {
+            $('#autoWidth, #autoWidth2').removeClass('cS-hidden');
+        } 
+        });  
+    });
+    </script>
+    </body>
+</html>
